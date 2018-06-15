@@ -1,0 +1,8 @@
+
+Q1. 依據 getApiResult() 提供的回傳，解析出 id, domain, username, cash
+Q2-1. 依據所提供的 IP, Host, Port 設計 struct 結構體，並印出內容
+Q2-2. 新增一筆資料並印出
+Q2-3. 完成 void func updateSetting() 利用 pointer 將 jsonviewer.stack.hu 的 port 改為 80 並印出
+作業題目: https://github.com/WeiWeiWesley/goWeekly/blob/master/week3/week3_home_work.go 
+今日範例: https://github.com/WeiWeiWesley/goWeekly/blob/master/week3/demo/demo.go
+  
