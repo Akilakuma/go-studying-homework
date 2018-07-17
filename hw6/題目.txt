@@ -1,0 +1,6 @@
+
+1. 實作 IWatch 2.
+2-1. 規劃 Rocket interface 於新建 $GOPATH/yours_packeage 中
+2-3. package 新建 Launch(rocket Rocket) 升空倒數方法 3.
+3-1 引用完成的套件包實作兩艘火箭 3-2 用 govedor 把套件加入你的作業中
+ 
