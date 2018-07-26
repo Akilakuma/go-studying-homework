@@ -1,0 +1,4 @@
+
+設計一個phone interface
+interface需要設計兩個以上的功能，與兩個以上的func
+並實作兩隻不一樣的phone
