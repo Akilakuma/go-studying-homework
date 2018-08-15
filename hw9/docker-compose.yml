@@ -1,0 +1,23 @@
+version: '0.1'
+services:
+  mysql:
+      image: mysql:5.7
+      restart: always
+      tty: true
+      ports:
+          - "3306:3306"
+      volumes:
+          - db:/var/lib/mysql
+      environment:
+          MYSQL_USER: root
+          MYSQL_ROOT_PASSWORD: qwe123
+          MYSQL_DATABASE: test
+
+  redis:
+      image: redis
+      restart: always
+      tty: true
+      ports:
+          - "6379:6379"
+      volumes:
+          - cache:/data

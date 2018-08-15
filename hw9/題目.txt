@@ -1,0 +1,5 @@
+1. Create your own api server: http://127.0.0.1:1111/weather
+a. Get data form redis
+b. If redis not exist, get data form DB
+c. If DB not exist, call api form http://weather.json.tw/api and set to db and redis
+ 
